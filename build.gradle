@@ -17,8 +17,10 @@ ext {
   junitVersion = '5.9.2'
 }
 
-sourceCompatibility = '21'
-targetCompatibility = '21'
+java {
+  sourceCompatibility = JavaVersion.VERSION_21
+  targetCompatibility = JavaVersion.VERSION_21
+}
 
 tasks.withType(JavaCompile) {
   options.encoding = 'UTF-8'
@@ -26,7 +28,7 @@ tasks.withType(JavaCompile) {
 
 application {
   mainModule = 'github.dragonatte.tresenraya'
-  mainClass = 'github.dragonatte.tresenraya.HelloApplication'
+  mainClass = 'github.dragonatte.tresenraya.MainApp'
 }
 
 javafx {

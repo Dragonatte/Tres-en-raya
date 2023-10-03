@@ -1,0 +1,39 @@
+.btn
+{
+	-fx-background-color: #000000;
+	-fx-background-radius: 0;
+	-fx-border-radius: 0;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 2px;
+	-fx-padding: 10px;
+}
+
+.btn:hover
+{
+	-fx-background-color: #ffffff;
+	-fx-text-fill: #000000;
+}
+
+.btnX {
+	-fx-background-color: #000000;
+	-fx-text-fill: #ff0000;
+	-fx-font-size: 64px;
+	-fx-font-weight: bold;
+	-fx-background-radius: 0;
+	-fx-border-radius: 0;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 2px;
+	-fx-padding: 10px;
+}
+
+.btnO {
+	-fx-background-color: #000000;
+	-fx-text-fill: #0000ff;
+	-fx-font-size: 64px;
+	-fx-font-weight: bold;
+	-fx-background-radius: 0;
+	-fx-border-radius: 0;
+	-fx-border-color: #ffffff;
+	-fx-border-width: 2px;
+	-fx-padding: 10px;
+}

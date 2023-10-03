@@ -7,4 +7,7 @@ module github.dragonatte.tresenraya {
 
     opens github.dragonatte.tresenraya to javafx.fxml;
     exports github.dragonatte.tresenraya;
+
+    opens github.dragonatte.tresenraya.controllers to javafx.fxml;
+    exports github.dragonatte.tresenraya.controllers;
 }
